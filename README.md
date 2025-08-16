@@ -1,7 +1,5 @@
 # NexaGPT – AI-Powered Chatbot
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 NexaGPT is a conversational AI chatbot built using OpenAI's GPT-4.0 API. It features real-time messaging, user authentication, and a modern web interface built with React + Vite. The backend is powered by Node.js and Express.
 
 ## Features
