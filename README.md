@@ -25,4 +25,4 @@ NexaGPT is a conversational AI chatbot built using OpenAI's GPT-4.0 API. It feat
 ```bash
 cd backend
 npm install
-npm start
+npm run dev
