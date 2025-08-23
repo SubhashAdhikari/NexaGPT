@@ -17,7 +17,7 @@ const testOpenAI = async () => {
     try {
         const response = await fetch("https://api.openai.com/v1/chat/completions", options);
         const data = await response.json();
-        console.log("Full response:", data); // <--- check the full response
+        console.log("Full response:", data);
         if (data.choices && data.choices.length > 0) {
             console.log("Reply:", data.choices[0].message.content);
         } else {
